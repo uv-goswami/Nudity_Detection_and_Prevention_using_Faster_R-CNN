@@ -1,0 +1,9 @@
+nc: 5
+names:
+  - Dick
+  - Vagina
+  - Breast
+  - Butt
+  - genetial_area
+train: images/train
+val: images/val
