@@ -17,6 +17,8 @@ This project aims to develop a nudity detection and prevention system using the 
 - [Contributing](#contributing)
 - [License](#license)
 
+## Warning 
+**Content Warning**: This project involves the use of images that may be inappropriate or explicit. These images are used solely for the purpose of training the nudity detection model. Viewer discretion
 ## Directory Structure
 ```
 The repository is organized as follows:
