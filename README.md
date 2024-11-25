@@ -20,7 +20,35 @@ This project aims to develop a nudity detection and prevention system using the 
 ## Directory Structure
 
 The repository is organized as follows:
-Nudity_Detection_and_Prevention_using_Faster_R-CNN/ │ ├── dataset/ │ ├── train/ │ ├── validate/ │ ├── test/ │ ├── models/ │ └── nudity_prevention_model.pth │ ├── scripts/ │ ├── data_collection.py │ ├── train_model.py │ ├── validate_model.py │ ├── blackout_nudes.py │ ├── generate_synthetic_labels.py │ ├── verify_clean_data.py │ ├── precision_recall_curve.py │ ├── roc_curve.py │ └── confusion_matrix.py │ ├── visualize/ │ ├── precision_recall_curve.py │ ├── roc_curve.py │ └── confusion_matrix.py │ └── requirements.txt└── README.md
+Nudity_Detection_and_Prevention_using_Faster_R-CNN/
+│
+├── dataset/
+│   ├── train/
+│   ├── validate/
+│   ├── test/
+│
+├── models/
+│   └── nudity_prevention_model.pth
+│
+├── scripts/
+│   ├── data_collection.py             # Data collection script
+│   ├── train_model.py                 # Model training script
+│   ├── validate_model.py              # Model validation script
+│   ├── blackout_nudes.py              # Script to blackout nudes
+│   ├── generate_synthetic_labels.py   # Generate synthetic labels
+│   ├── verify_clean_data.py           # Verify clean data
+│   ├── precision_recall_curve.py      # Generate Precision-Recall curve
+│   ├── roc_curve.py                   # Generate ROC curve
+│   └── confusion_matrix.py            # Generate Confusion Matrix
+│
+├── visualize/
+│   ├── precision_recall_curve.py      # Precision-Recall curve visualization
+│   ├── roc_curve.py                   # ROC curve visualization
+│   └── confusion_matrix.py            # Confusion Matrix visualization
+│
+├── requirements.txt                   # Dependencies
+└── README.md                          # Project documentation
+
 
 ## Data Collection
 
