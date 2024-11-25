@@ -154,5 +154,5 @@ pip install -r requirements.txt
 ```
 Make sure to use a Python environment where you have the required packages installed to run the scripts without any issues.
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
