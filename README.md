@@ -131,12 +131,11 @@ The histogram of confidence scores displays the distribution of confidence score
 #### Statistical Summaries
 
 The statistical summaries of the confidence scores include the mean, median, and standard deviation. These summaries provide a numerical overview of the confidence scores.
-
-
-
-### Visualization Results
-
-(Please add your visualization results here)
+```
+Mean Confidence Score: 0.22
+Median Confidence Score: 0.22
+Standard Deviation of Confidence Scores: 0.02
+```
 
 ## Usage
 
