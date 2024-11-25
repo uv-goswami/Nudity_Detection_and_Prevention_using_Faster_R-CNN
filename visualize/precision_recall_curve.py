@@ -20,10 +20,20 @@ true_labels, pred_scores = verify_clean_data(synthetic_labels, pred_scores)
 # Calculate Precision-Recall Curve
 precision, recall, _ = precision_recall_curve(true_labels, pred_scores)
 
+# Define the path for the output image
+output_path = 'visualizations/precision_recall_curve.png'
+
+# Remove the existing image file if it exists
+if os.path.exists(output_path):
+    os.remove(output_path)
+
 # Plot Precision-Recall Curve
 plt.figure()
 plt.plot(recall, precision, marker='.')
 plt.xlabel('Recall')
 plt.ylabel('Precision')
 plt.title('Precision-Recall Curve')
-plt.show()
+
+# Save the visualized image
+plt.savefig(output_path)
+plt.close()

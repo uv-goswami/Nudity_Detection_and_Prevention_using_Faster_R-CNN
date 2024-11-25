@@ -1,6 +1,14 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
+
+# Define the path for the output image
+output_path = 'visualizations/class_distribution.png'
+
+# Remove the existing image file if it exists
+if os.path.exists(output_path):
+    os.remove(output_path)
 
 # Load predictions from CSV
 predictions = pd.read_csv('validation_predictions.csv')
@@ -18,4 +26,7 @@ plt.title('Class Distribution')
 plt.xlabel('Class')
 plt.ylabel('Frequency')
 plt.grid(True)
-plt.show()
+
+# Save the visualized image
+plt.savefig(output_path)
+plt.close()

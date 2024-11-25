@@ -1,0 +1,3 @@
+Mean Confidence Score: 0.22
+Median Confidence Score: 0.22
+Standard Deviation of Confidence Scores: 0.02

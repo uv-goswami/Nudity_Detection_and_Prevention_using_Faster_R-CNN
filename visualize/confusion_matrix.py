@@ -22,9 +22,20 @@ true_labels, pred_labels = verify_clean_data(synthetic_labels, pred_labels)
 
 # Calculate Confusion Matrix
 cm = confusion_matrix(true_labels, pred_labels)
+
+# Define the path for the output image
+output_path = 'visualizations/confusion_matrix.png'
+
+# Remove the existing image file if it exists
+if os.path.exists(output_path):
+    os.remove(output_path)
+
+# Plot Confusion Matrix
 disp = ConfusionMatrixDisplay(confusion_matrix=cm)
 disp.plot()
 
-# Plot Confusion Matrix
 plt.title('Confusion Matrix')
-plt.show()
+
+# Save the visualized image
+plt.savefig(output_path)
+plt.close()
