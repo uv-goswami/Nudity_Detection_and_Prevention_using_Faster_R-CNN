@@ -18,7 +18,7 @@ This project aims to develop a nudity detection and prevention system using the 
 - [License](#license)
 
 ## Directory Structure
-
+`
 The repository is organized as follows:
 Nudity_Detection_and_Prevention_using_Faster_R-CNN/
 │
@@ -48,7 +48,7 @@ Nudity_Detection_and_Prevention_using_Faster_R-CNN/
 │
 ├── requirements.txt                   # Dependencies
 └── README.md                          # Project documentation
-
+`
 
 ## Data Collection
 
