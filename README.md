@@ -20,7 +20,6 @@ The combination of these two networks allows Faster R-CNN to quickly and accurat
 - [Visualization](#visualization)
 - [Usage](#usage)
 - [Requirements](#requirements)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Warning 
@@ -145,3 +144,15 @@ Standard Deviation of Confidence Scores: 0.02
    ```bash
    git clone https://github.com/uv-goswami/Nudity_Detection_and_Prevention_using_Faster_R-CNN.git
    cd Nudity_Detection_and_Prevention_using_Faster_R-CNN
+   ```
+## Requirements
+
+All necessary packages for this project are listed in the `requirements.txt` file. To install these dependencies, use the following command:
+
+```bash
+pip install -r requirements.txt
+```
+Make sure to use a Python environment where you have the required packages installed to run the scripts without any issues.
+
+##License
+This project is licensed under the MIT License. See the LICENSE file for more details.
