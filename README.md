@@ -29,7 +29,7 @@ The combination of these two networks allows Faster R-CNN to quickly and accurat
 The repository is organized as follows:
 Nudity_Detection_and_Prevention_using_Faster_R-CNN/
 │
-├── dataset/
+├── dataset.zip/
 │   ├── labels/
 │   ├── train/
 │   ├── validate/
