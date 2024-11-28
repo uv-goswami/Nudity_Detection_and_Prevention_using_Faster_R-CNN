@@ -7,7 +7,7 @@ This project aims to develop a nudity detection and prevention system using the 
 ### What is Faster R-CNN? 
 Faster R-CNN is a two-stage object detection model that consists of two main components:  
    1. **Region Proposal Network (RPN)**: This network generates region proposals, which are potential bounding boxes where objects might be located. The RPN is fully convolutional, which means it shares the same convolutional layers as the main network, leading to significant performance improvements.
-   2. **Fast R-CNN Detector**: This network takes the region proposals from the RPN and classifies them into different object categories while also refining the bounding box coordinates. This stage uses RoI (Region of Interest) pooling to extract fixed-size feature maps from the proposed regions.
+   2. **Fast R-CNN Detector**: This network takes the region proposals from the RPN and classifies them into different object categories while also refining the bounding box coordinates. This stage uses RoI (Region of Interest) pooling to extract fixed-size feature maps from the proposed regions. 
 The combination of these two networks allows Faster R-CNN to quickly and accurately detect objects in images, making it an ideal choice for tasks like nudity detection.
 
 ## Table of Contents
